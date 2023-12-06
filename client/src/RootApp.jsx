@@ -9,7 +9,7 @@ import RecordList from "./components/recordList";
 import Edit from "./components/edit";
 import Create from "./components/create";
 
-const App = () => {
+const RootApp = () => {
   return (
     <BrowserRouter>
     <div>
@@ -27,4 +27,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default RootApp;
